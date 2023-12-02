@@ -150,7 +150,7 @@ def classification(
 def main() -> None:
     # základní vlastnosti aplikace: jméno, široké rozložení
     st.set_page_config(page_title="Fishboard", layout="wide")
-    st.title("Katky Fishboard")
+    st.title("Katky appka")
     
     data_file_path = st.file_uploader("Data file")
 
